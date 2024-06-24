@@ -1,5 +1,17 @@
 {
+  "name": "connectmysql",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch js/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "async-prompt": "^1.0.1"
+    "i": "^0.3.7",
+    "mysql2": "^3.10.1"
   }
 }
